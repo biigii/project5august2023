@@ -1,22 +1,23 @@
 /* word root here is an alias for <html> */
 :root {
-  --primary-color: #ff338f;
-  --secondary-color: #fffb21;
-  /* --font-family:  */
-  --btn-font-size: 50px;
+  --color1: #ff338f;
+  --color2: #fffb21;
 }
 
-h1 {
-  color: var(--primary-color);
+html {
+  /* font-size: 16px; */
+}
+
+section.content {
+  font-size: 50px;
 }
 
 p {
-  background-color: var(--primary-color);
-  font-size: var(--btn-font-size);
+  /* font-size: 1em; */
+  /* is equal to 1 x 16px */
+  /* font-size: 2em;
+  font-size: 20px; */
+  /* width: 10em; */
+  font-size: 3rem;
 }
 
-.btn {
-  font-size: var(--btn-font-size);
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-}
