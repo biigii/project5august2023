@@ -1,0 +1,5 @@
+/* word root here is an alias for <html> */
+:root {
+  --color1: #ff338f;
+  --color2: #fffb21;
+}
